@@ -233,8 +233,7 @@ public class LoginAsUserPOMTest extends BaseClass {
 		userLoginPage.typecustIDTxt(internetAccountNumber);
 		userLoginPage.typePasswordTxt(password);
 		userLoginPage.pressLoginButton();
-		System.out.println("print");
-		System.out.println("print");
+		System.out.println("User Login successfully");
 		
 		
 	}
